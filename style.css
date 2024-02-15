@@ -73,6 +73,7 @@ font-weight: 800;
     margin-left: 530px;
     margin-top: 40px;
     align-items: center;
+    cursor: pointer;
 }
 
 button:hover{
@@ -178,4 +179,61 @@ font-weight: lighter;
 h2,p,a{
   padding-top: 20px;
 }
+.vell{
+    height: 60px;
+}
+.vell>h3{
+text-align: center;
+margin-top: 30px;
+font-size: 24px;
+color: #e9edf0;
+}
+.panel{
+    height: 256px;
+   
+}
+.h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+.p{
+    text-align: center;
+    font-size:18px ;
+    height: 25px;
+    color:#6e7781;
+    margin-bottom: 15px;
+   
 
+}
+.bt1{
+  text-align: center;
+    background-color: #1b1f23;
+    height: 50px;
+    width: 220px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14 24 18 24;
+    cursor: pointer;
+}
+.li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+.foot-main{
+    height: 413px;
+    width: 500px;
+}
+.foot{
+    margin-left: 50px;
+}
+
+.foot>h4{
+    color: #1f2328;
+}
+.foot>ul>li{
+   color:#7e7781 ; 
+   list-style: none;
+}
