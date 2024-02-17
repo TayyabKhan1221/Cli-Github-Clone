@@ -259,14 +259,14 @@ top: 120px;
     padding: 14 24 18 24;
     cursor: pointer;
 }
-
+/* 
 .foot-main{
     height: 413px;
     width: 500px;
     display: flex;
     margin-left: 800px;
    border: 2px solid red;
-}
+} */
 
 .foot>h4{
     color: #1f2328;
@@ -282,7 +282,96 @@ top: 120px;
     width: 40px;
 
 }
-.foot-panel2{
-
-
+.footer-container-fluid{
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 50px;
+    border-top: 1px solid #ccc;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    height: auto;
+}
+.footer-box1{
+    height:auto;
+    width: 350px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.footer-box1 > h2{
+    color: black;
+    padding: 1rem 0 0 1rem;
+    font-size: 1.9rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+.footer-box{
+    height:auto;
+    width: 200px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.footer-box > h4{
+    color: black;
+    font-weight: 600;
+    padding: 1.5rem 0 0 1rem;
+}
+.footer-box > ul{
+    padding: 1rem;
+    line-height: 35px;
+}
+.footer-box > ul > li{
+    list-style-type: none;
+}
+.footer-box > ul > li > a{
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+}
+.footer-box > ul > li > a:hover{
+    text-decoration: underline;
+}
+.footer-nav-container-fluid{
+    height: auto;
+    width: 100%;
+    background-color: #F6F8FA;
+    padding-bottom: 10px;
+}
+.footer-nav-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.footer-nav-box1{
+    height: auto;  
+}
+.footer-nav-box1 > ul{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+.footer-nav-box1 > ul > li{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 0.8rem;
+}
+.footer-nav-box2{
+    height: auto; 
+}
+.footer-nav-box2 > ul{
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+    padding-left: 1rem;
+}
+.footer-nav-box2 > ul > li{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    color: #6E7781;
 }
