@@ -31,6 +31,10 @@ gap: 30px;
 font-size: 15px;
 }
 
+.img a img{
+margin-top: 100px;
+}
+
 .nav-left {
     display: flex;
     align-items: center;
@@ -85,7 +89,10 @@ button:hover{
     font-size: 20px;
     margin-top: 20px;
 }
+.main-panel{
+height: 100px;
 
+}
 /* <!-- Section -->
 /* 
 section {
@@ -188,23 +195,58 @@ margin-top: 30px;
 font-size: 24px;
 color: #e9edf0;
 }
+
 .panel{
-    height: 256px;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border: 2px solid red;
+    position: relative;
+
+  
    
 }
+.div{
+    border-radius: 5px;
+   
+    background-color: #ffffff;
+    opacity: 1;
+    height: 256px;
+    /* border: 2px solid red; */
+    left: 0;
+    padding-left: 10px;
+   
+   position: absolute;
+left: 390px;
+top: 120px;
+  
+    
+}
 .h2{
-    text-align: center;
-    font-size: 32px;
+    text-align: left;
+    font-size: 28px;
     font-weight: 900;
+   
 }
 .p{
-    text-align: center;
-    font-size:18px ;
+    text-align: left;
+    font: size 15px; ;
     height: 25px;
     color:#6e7781;
     margin-bottom: 15px;
    
 
+}
+.button{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.li{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
 }
 .bt1{
   text-align: center;
@@ -217,17 +259,13 @@ color: #e9edf0;
     padding: 14 24 18 24;
     cursor: pointer;
 }
-.li{
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-}
+
 .foot-main{
     height: 413px;
     width: 500px;
-}
-.foot{
-    margin-left: 50px;
+    display: flex;
+    margin-left: 800px;
+   border: 2px solid red;
 }
 
 .foot>h4{
@@ -236,4 +274,15 @@ color: #e9edf0;
 .foot>ul>li{
    color:#7e7781 ; 
    list-style: none;
+   gap: 40px;
+}
+
+.svg{
+    height: 50px;
+    width: 40px;
+
+}
+.foot-panel2{
+
+
 }
